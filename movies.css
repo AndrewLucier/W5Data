@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(57,247,247);
+    color: rgb(2, 12, 37);
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color:rgb(17, 35, 57)
+}
+
+form{
+    margin: 20px;
+}
+
+button{
+    background-color:rgb(2, 12, 37);
+    color: rgb(201, 240, 240);
+    border: none;
+    border-radius: 4px; /* rounded corners */
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+}
+
+.container{
+    background-color:rgb(201, 240, 240);
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W5 Data Sorter</title>
+    <link rel="stylesheet" href="movies.css">
+</head>
+<body>
+    <header>
+        <h1>Favorite Movies</h1>
+    </header>
+
+    <main class="container">
+        <form id="frmMovie" onsubmit="addMovie(event);">
+            <!-- Create a label that explains what info the text box needs to have entered -->
+            <label for="txtMovie">Enter Movie Title:</label>
+            <!-- movie textbox -->
+            <input type="text" id="txtMovie" name="txtMovie" placeholder="Movie Title" required>
+            <!-- button to create the event that adds the movie -->
+            <button type="submit">Add Movie</button>
+        </form>
+
+        <div id="divMovieList"></div>
+        <button onclick="clearList();">Clear List</button>
+    </main>
+
+    <script src="movies.js"></script>
+</body>
+</html>
